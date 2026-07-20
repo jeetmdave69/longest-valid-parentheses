@@ -14,7 +14,7 @@ class TestLongestValidParentheses(unittest.TestCase):
         self.assertEqual(longest_valid_parentheses(""), 0)
 
     def test_nested_parentheses(self):
-        self.assertEqual(longest_valid_parentheses("(())"), 6)
+        self.assertEqual(longest_valid_parentheses("(())"), 4)
 
     def test_no_valid_pair(self):
         self.assertEqual(longest_valid_parentheses(")))((("), 0)
